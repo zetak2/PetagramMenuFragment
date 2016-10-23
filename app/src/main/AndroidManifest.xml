@@ -23,8 +23,11 @@
         <activity
             android:name=".MascotasFavoritas"
             android:parentActivityName=".VisualizarMascotas" />
-        <activity android:name=".Contacto" />
-        <activity android:name=".AcercaDe"></activity>
+        <activity android:name=".Contacto"
+            android:parentActivityName=".VisualizarMascotas"/>
+        <activity android:name=".AcercaDe"
+            android:parentActivityName=".VisualizarMascotas"
+            ></activity>
     </application>
 
 </manifest>

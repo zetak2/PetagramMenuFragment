@@ -16,6 +16,8 @@ public class Contacto extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_contacto);
+        getSupportActionBar().setDisplayHomeAsUpEnabled(true);
+        getSupportActionBar().setTitle(R.string.contacto);
 
         tiNombre    = (TextInputEditText) findViewById(R.id.tiNombre);
         tiEmail     = (TextInputEditText) findViewById(R.id.tiEmail);

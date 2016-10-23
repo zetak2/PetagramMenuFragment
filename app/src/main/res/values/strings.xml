@@ -6,6 +6,8 @@
     <string name="favs">0</string>
     <string name="visualizarMascotas">Todas las Mascotas</string>
     <string name="mascotasFavoritas">MascotasFavoritas</string>
+    <string name="contacto">Formulario Contacto</string>
+    <string name="acercade">Acerca de</string>
     <string name="mContacto">Contacto</string>
     <string name="mAcerca">Acerca de</string>
     <string name="tiNombre">Nombre Completo</string>
